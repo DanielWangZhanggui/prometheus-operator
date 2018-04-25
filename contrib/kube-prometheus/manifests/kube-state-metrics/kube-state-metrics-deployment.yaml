@@ -17,6 +17,7 @@ spec:
           - --collectors=deployments
           - --collectors=statefulsets
           - --collectors=pods
+          - --collectors=nodes
         ports:
         - name: metrics
           containerPort: 8080
